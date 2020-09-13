@@ -30,7 +30,7 @@ deploy:
     - gcloud auth activate-service-account --key-file ${HOME}/gcloud-service-key.json
     # Register GCP Project
     # - gcloud auth activate-service-account --key-file=$GCLOUD_SERVICE_KEY
-    - gcloud config set project steve-sites
+    - gcloud config set project $PROJECT_ID
   
     # Deploy
     - gcloud beta functions deploy $FUNCTION_NAME --runtime nodejs10 --trigger-http
