@@ -1,6 +1,5 @@
-# gitlab-pipeline-deploy-gcp
+# gitlab-pipeline-gcp
 
-## This yml file is opinionated since i use it for my personal proejct. 
 
 ```yml
 variables:
