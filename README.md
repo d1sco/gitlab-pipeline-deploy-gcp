@@ -1,5 +1,7 @@
 # gitlab-pipeline-deploy-gcp
 
+## This yml file is opinionated since i use it for my personal proejct. 
+
 ```yml
 variables:
   GCP_ZONE: us-central1-a
