@@ -33,6 +33,6 @@ deploy:
     - gcloud config set project steve-sites
   
     # Deploy
-    - gcloud beta functions deploy CactiDexML --runtime nodejs10 --trigger-http
+    - gcloud beta functions deploy $FUNCTION_NAME --runtime nodejs10 --trigger-http
 
 ```
